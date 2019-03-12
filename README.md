@@ -4,7 +4,7 @@
 
 ## Demo
 
-<img src="https://i.imgur.com/R3T1mCO.gif" width="414" height="896">
+<img src="https://i.imgur.com/R3T1mCO.gif" width="375" height="700">
 
 ### What you will learn:
 - Auto layout
