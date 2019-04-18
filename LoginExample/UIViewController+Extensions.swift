@@ -10,4 +10,10 @@ import UIKit
 
 extension UIViewController {
     @IBAction func unwind(_ segue: UIStoryboardSegue) {}
+    @IBAction func done(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
